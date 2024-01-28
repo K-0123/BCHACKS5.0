@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #000; /* Set background color to black */
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #fff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown label and select */
+.dropdown label, .dropdown select {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100%; /* Match the width of the button */
+    top: 28px; /* Adjust the top spacing */
+}
+
+/* Style the dropdown options */
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style for home button */
+.home-button {
+    position: fixed; /* Fixed position */
+    top: 10px; /* 10px from the top */
+    left: 10px; /* 10px from the left */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff; /* Set background color to white */
+    color: #000; /* Set text color to black */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hover effect for home button */
+.home-button:hover {
+    background-color: #e1dada; /* Light gray on hover */
+}
+
+/*Time-Widget*/
+.time-widget {
+    position: fixed;
+    bottom: 60px;
+    left: 450px;
+    background-color: #00008B; /* Dark blue color */
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 25%; /* Cover less than 1/4th of the page */
+    height: 25%;
+}
+
+/* Style for the time information */
+.time-widget h2 {
+    margin-top: 0; /* Remove default margin for h2 */
+    margin-bottom: 5px; /* Adjust margin as needed */
+    font-size: 30px; /* Increase font size for headings */
+}
+
+/* Style for the time paragraph */
+.time-widget p {
+    margin-top: 0; /* Remove default margin for p */
+    margin-bottom: 10px; /* Adjust margin as needed */
+    font-size: 20px; /* Increase font size for paragraphs */
+}
+
+/* Weather widget styling */
+.weather-widget {
+    position: fixed;
+    bottom: 60px;
+    left: 50px;
+    background-color: #f26c18;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 25%; /* Cover less than 1/4th of the page */
+    height: 25%;
+}
+
+/* Style for the weather information */
+.weather-info {
+    max-height: 100%; /* Allow the content to take full height if needed */
+    overflow: hidden; /* Hide overflow to prevent scrolling */
+}
+
+/* Style for headings */
+.weather-info h2 {
+    margin-top: 0; /* Remove default margin for h2 */
+    margin-bottom: 5px; /* Adjust margin as needed */
+    font-size: 30px; /* Increase font size for headings */
+}
+
+/* Style for paragraphs */
+.weather-info p {
+    margin-top: 0; /* Remove default margin for p */
+    margin-bottom: 10px; /* Adjust margin as needed */
+    font-size: 20px; /* Increase font size for paragraphs */
+}
+
+/* Add this style to adjust the position of the planet title */
+.planet-title {
+    margin-top: 50px; /* Adjust the margin-top value as needed */
+}
+
+/* Add this style to add space between weather and temperature */
+.weather-widget p {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+/* Add any additional styles as needed */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #000;
+    color: #fff;
+}
